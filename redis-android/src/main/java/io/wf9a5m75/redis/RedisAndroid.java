@@ -33,7 +33,7 @@ public class RedisAndroid  {
     //-------------------
     // General settings
     //-------------------
-    configs.putString("bind", "0.0.0.0");
+    configs.putString("bind", "127.0.0.1");   // bind only on localhost
     configs.putString("protected-mode", "yes");
     configs.putString("port", port);
 
